@@ -15,6 +15,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".NouEmpleatActivity"/>
+        <activity android:name=".EmpleatsActivity"/>
+        <activity android:name=".TablaActivity"/>
+        <activity android:name=".MenuEmpleatActivity"/>
+        <activity android:name=".DadesEmpleatActivity"/>
     </application>
 
 </manifest>

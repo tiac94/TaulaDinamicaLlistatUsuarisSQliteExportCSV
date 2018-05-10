@@ -5,16 +5,34 @@ package org.ieselcaminas.alu53787365w.tauladinamicallistatusuarissqlite;
  */
 
 public class Usuari {
+    private int ID;
     private String nom;
     private int depart;
     private int edat;
     private double sou;
+
+    public Usuari(int ID, String nom, int depart, int edat, double sou) {
+
+        this.ID = ID;
+        this.nom = nom;
+        this.depart = depart;
+        this.edat = edat;
+        this.sou = sou;
+    }
 
     public Usuari(String nom, int depart, int edat, double sou) {
         this.nom = nom;
         this.depart = depart;
         this.edat = edat;
         this.sou = sou;
+    }
+
+    public int getID() {
+        return ID;
+    }
+
+    public void setID(int ID) {
+        this.ID = ID;
     }
 
     public String getNom() {

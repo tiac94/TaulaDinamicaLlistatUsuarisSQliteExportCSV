@@ -12,7 +12,7 @@ public class SQLiteGestor extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
         String sql = "CREATE TABLE EMPLEAT("
-                + "num INTEGER CONSTRAINT cp_emp PRIMARY KEY, "
+                + "ID INTEGER CONSTRAINT cp_emp PRIMARY KEY, "
                 + "nom TEXT, " + "depart INTEGER, " + "edat INTEGER, "
                 + "sou REAL " + ")";
         sqLiteDatabase.execSQL(sql);
